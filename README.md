@@ -6,7 +6,7 @@ This is a simple PHP framework we have made for our project in which we wanted t
 * MVC architecture (not MOVE)
 * A framework that is easy to get started for any PHP coders
 * Code/File structure that is organized and scalable
-* Easy to use third party libraries
+* Easy to use third party libraries (We use a few Zend classes by default)
 
 ### Core Classes
 Some of the core classes are as follows;
@@ -15,6 +15,8 @@ Some of the core classes are as follows;
 * A database abstruct class that uses PDO to access database
 * Centralised error handling methods which take care of PHP errors and exceptions
 * A session-based Flash Message class that handles messages
+
+A lot of the public methods are similar to those you find on popular frameworks such as Zend and Yii. So hopefully it is easy for a lot of people to understand/get started to use those Core Classes.
 
 ### Coding Standard
 In this framework, we follow PSR-2 coding style whenever possible.
