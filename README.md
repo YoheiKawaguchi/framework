@@ -3,7 +3,8 @@ A simple PHP framework
 
 version 0.0.1 as of 2013 May 2
 
-This is a simple PHP framework we started to make for our project in which we want to archive the following goals;
+This is a simple PHP framework loosely based on Zend Framework.  
+We are building this framework for our small project in which we want to archive the following goals;
 * A framework that is good for small to medium size projects
 * MVC architecture (not MOVE)
 * A framework that is easy to get started for any PHP coders
