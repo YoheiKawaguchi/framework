@@ -1,7 +1,9 @@
 A simple PHP framework
 ======================
 
-This is a simple PHP framework we have made for our project in which we wanted to archive the following goals;
+version 0.0.1 as of 2013 May 2
+
+This is a simple PHP framework we started to make for our project in which we want to archive the following goals;
 * A framework that is good for small to medium size projects
 * MVC architecture (not MOVE)
 * A framework that is easy to get started for any PHP coders
@@ -16,7 +18,7 @@ Some of the core classes are as follows;
 * Centralised error handling methods which take care of PHP errors and exceptions
 * A session-based Flash Message class that handles messages
 
-A lot of the public methods are similar to those you find on popular frameworks such as Zend and Yii. So hopefully it is easy for a lot of people to understand/get started to use those Core Classes.
+We are making the public methods similar to those you find on popular frameworks such as Zend and Yii. So hopefully it will be easy for a lot of people to understand/get started to use those Core Classes.
 
 ### Coding Standard
 In this framework, we follow PSR-2 coding style whenever possible.
