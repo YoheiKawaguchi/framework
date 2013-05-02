@@ -26,23 +26,23 @@ For more details about PSR-2, please see the link below.
 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 
 ### Directory Structure
-Directories are structured in MVC way and each module will have its own directory.
+Directories are structured in MVC way and each module will have its own directory  
 
-config/
-    config.php ------------- Config file used by whole system
-library/
-    Core/ ------------------ This is where all the Core Classes are stored
-    Zend/ ------------------ You can have library here, for instance Zend
-    global_functions.php --- functions that are included in bootstrap
-module/
-    ModuleName/ ------------ Module directory
-            Controller/ ---- Controller classes for the module
-            Model/ --------- Model classes for the module
-            View/ ---------- View files for the module
-public/ -------------------- Document root
-    css/
-    img/
-    js/
-    index.php -------------- The bootstrap. Every requests hit this PHP file
+config/  
+    config.php ------------- Config file used by whole system  
+library/  
+    Core/ ------------------ This is where all the Core Classes are stored  
+    Zend/ ------------------ You can have library here, for instance Zend  
+    global_functions.php --- functions that are included in bootstrap  
+module/  
+    ModuleName/ ------------ Module directory  
+            Controller/ ---- Controller classes for the module  
+            Model/ --------- Model classes for the module  
+            View/ ---------- View files for the module  
+public/ -------------------- Document root  
+    css/  
+    img/  
+    js/  
+    index.php -------------- The bootstrap. Every requests hit this PHP file  
 
     
